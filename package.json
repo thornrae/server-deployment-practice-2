@@ -1,0 +1,27 @@
+{
+  "name": "server-deployment-practice-2",
+  "version": "1.0.0",
+  "description": "To deploy to heroku:  1. Login to Heroku account 2. Create new app 3. Go to deploy tab to connect repo to git hub 4. Choose branch for deploy  5. Choose \"wait for CI to pass before deploy\" 6. Choose \"enable automatic deploys\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornrae/server-deployment-practice-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thornrae/server-deployment-practice-2/issues"
+  },
+  "homepage": "https://github.com/thornrae/server-deployment-practice-2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}
